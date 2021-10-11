@@ -11,3 +11,15 @@ function publish(book) {
 let updated = publish(book);
 console.log(book);
 console.log(updated);
+
+//original problem:
+
+// let book = { title: 'Harry Potter' };
+
+// function publish(book) {
+//     book.isPublished = true
+// }
+
+// publish(book);
+
+// console.log(book);

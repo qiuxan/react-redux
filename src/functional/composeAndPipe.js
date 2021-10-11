@@ -8,8 +8,7 @@ let input = "  JavaScript  "
 
 const trim = str => str.trim()
 const wrapInDiv = str => `<div>${str}</div>`
-//const wrapInSpan = str => `<span>${str}</span>`
-//const wrap = (type, str) => `<${type}>${str}</${type}>`
+
 const toLowerCase = str => str.toLowerCase()
 
 //const result = wrapInDiv(toLowerCase(trim(input)))
